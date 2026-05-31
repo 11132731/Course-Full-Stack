@@ -1,9 +1,13 @@
 
 ```mermaid
-graph TD;
-    UsuarioEscribeTextoenInput-->Hace click en Save (Botton de tipo submit que envia al action del form (/exampleapp/new_note);
-    A-->C;
-    B-->D;
-    C-->D;
-    D-->A;
+sequenceDiagram
+    participant browser
+    participant server
+
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
+    activate server
+    server-->>browser: HTML document
+    deactivate server
+
+
 ```
