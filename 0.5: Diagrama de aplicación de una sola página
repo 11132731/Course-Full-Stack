@@ -1,0 +1,10 @@
+```mermaid
+sequenceDiagram
+    participant Browser
+    participant server
+
+    Browser->>server: https://studies.cs.helsinki.fi/exampleapp/spa (Contain Html and Form)
+    activate server
+    server-->>Browser: Response Html File
+    deactivate server
+    
