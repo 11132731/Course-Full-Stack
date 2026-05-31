@@ -11,4 +11,3 @@ sequenceDiagram
     deactivate server
 
       Note: When referring to the form, it is understood that it is part of the HTML view. A successful server response reloads all elements of the view, including the form, list of notes, styles, etc.
-```
