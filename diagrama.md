@@ -1,7 +1,7 @@
 
 ```mermaid
 sequenceDiagram
-    participant browser
+    participant Write Note and Submit
     participant server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
