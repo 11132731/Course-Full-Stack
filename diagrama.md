@@ -1,10 +1,10 @@
 
 ```mermaid
 sequenceDiagram
-    participant Write Note and Submit
+    participant Form
     participant server
 
-    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
+    browser->>server: Write note and submit to server
     activate server
     server-->>browser: HTML document
     deactivate server
